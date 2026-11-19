@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="HIVEDFOOD, tienda online para restaurantes"><title>HIVEDFOOD</title>
+  <defs>
+    <radialGradient id="glowAog" cx="22%" cy="18%" r="62%">
+      <stop offset="0%" stop-color="#F4B83F" stop-opacity=".30"/>
+      <stop offset="100%" stop-color="#F4B83F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBog" cx="86%" cy="88%" r="58%">
+      <stop offset="0%" stop-color="#E96D42" stop-opacity=".26"/>
+      <stop offset="100%" stop-color="#E96D42" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="plateog" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F4B83F"/>
+      <stop offset="100%" stop-color="#E96D42"/>
+    </linearGradient>
+    <pattern id="dotsog" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.6" fill="#ffffff" fill-opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#202A24"/>
+  <rect width="1200" height="630" fill="url(#dotsog)"/>
+  <rect width="1200" height="630" fill="url(#glowAog)"/>
+  <rect width="1200" height="630" fill="url(#glowBog)"/>
+  <g transform="translate(88 92)">
+    <path d="M24.5 3.6 41.3 13.3v19.4L24.5 42.4 7.7 32.7V13.3Z" fill="#F4B83F"/>
+    <path d="M24.5 9.2 36.4 16v13.8l-11.9 6.8-11.9-6.8V16Z" fill="#202A24"/>
+    <path d="M20.1 16.4v6.2a4.4 4.4 0 0 0 8.8 0v-6.2" stroke="#F4B83F" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+    <path d="M24.5 23v8.4" stroke="#F4B83F" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="54" y="33" font-family="Manrope, Inter, sans-serif" font-size="26" font-weight="800" fill="#F7F5EF">HIVED<tspan fill="#E96D42">FOOD</tspan></text>
+  </g>
+  <text x="88" y="300" font-family="Manrope, Inter, sans-serif" font-size="62" font-weight="800" fill="#F7F5EF">Tu restaurante con su</text>
+  <text x="88" y="372" font-family="Manrope, Inter, sans-serif" font-size="62" font-weight="800" fill="#F4B83F">propia tienda online</text>
+  <text x="88" y="436" font-family="Inter, system-ui, sans-serif" font-size="25" fill="#F7F5EF" fill-opacity=".62">Catalogo, pedidos y contenido administrables desde un solo lugar.</text>
+  <rect x="88" y="482" width="236" height="56" rx="28" fill="#F4B83F"/>
+  <text x="206" y="517" font-family="Manrope, Inter, sans-serif" font-size="19" font-weight="700" fill="#202A24" text-anchor="middle">Conoce la plataforma</text>
+  <g opacity=".9">
+    
+    <g>
+      <circle cx="980" cy="230" r="96" fill="#F7F5EF"/>
+      <circle cx="980" cy="230" r="69.1" fill="#F4B83F"/>
+      <circle cx="980" cy="230" r="49.9" fill="#E96D42"/>
+      <circle cx="958.9" cy="207.0" r="8.6" fill="#F7F5EF" fill-opacity=".75"/>
+      <circle cx="995.4" cy="201.2" r="6.7" fill="#F7F5EF" fill-opacity=".6"/>
+    </g>
+    
+    <g>
+      <circle cx="1092" cy="408" r="68" fill="#F7F5EF"/>
+      <circle cx="1092" cy="408" r="50.3" fill="#FBE6B8"/>
+      <circle cx="1092" cy="408" r="40.8" fill="#F4B83F"/>
+      <circle cx="1075.7" cy="398.5" r="7.5" fill="#E96D42"/>
+      <circle cx="1105.6" cy="421.6" r="7.5" fill="#E96D42"/>
+      <circle cx="1107.0" cy="390.3" r="5.4" fill="#E96D42"/>
+    </g>
+    
+    <g>
+      <circle cx="880" cy="450" r="54" fill="#F7F5EF"/>
+      <circle cx="880" cy="450" r="38.9" fill="#2C3931"/>
+      <circle cx="880" cy="450" r="27.0" fill="#FBE6B8"/>
+      <circle cx="880" cy="450" r="15.1" fill="#F4B83F"/>
+    </g>
+  </g>
+</svg>

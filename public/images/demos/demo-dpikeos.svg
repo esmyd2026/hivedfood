@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="800" height="550" role="img" aria-label="Vista de la tienda digital de Dpikeos"><title>Dpikeos</title>
+  <defs>
+    <linearGradient id="bgd1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E96D42" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#E96D42" stop-opacity=".05"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="550" fill="#F7F5EF"/>
+  <rect width="800" height="550" fill="url(#bgd1)"/>
+  <g>
+    <rect x="60" y="54" width="680" height="440" rx="22" fill="#ffffff"/>
+    <rect x="60" y="54" width="680" height="46" rx="22" fill="#202A24" fill-opacity=".04"/>
+    <rect x="60" y="86" width="680" height="14" fill="#202A24" fill-opacity=".04"/>
+    <circle cx="88" cy="77" r="5.5" fill="#E96D42"/>
+    <circle cx="106" cy="77" r="5.5" fill="#202A24" fill-opacity=".12"/>
+    <circle cx="124" cy="77" r="5.5" fill="#202A24" fill-opacity=".12"/>
+    <rect x="300" y="70" width="200" height="14" rx="7" fill="#202A24" fill-opacity=".06"/>
+  </g>
+  <g>
+    <rect x="96" y="128" width="46" height="46" rx="13" fill="#E96D42"/>
+    <text x="119" y="159" font-family="Manrope, Inter, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">D</text>
+    <text x="158" y="152" font-family="Manrope, Inter, sans-serif" font-size="21" font-weight="800" fill="#202A24">Dpikeos</text>
+    <rect x="158" y="160" width="120" height="9" rx="4.5" fill="#202A24" fill-opacity=".14"/>
+    <rect x="596" y="138" width="108" height="30" rx="15" fill="#202A24"/>
+    <rect x="620" y="149" width="60" height="8" rx="4" fill="#E96D42"/>
+  </g>
+  <g>
+    <rect x="96" y="196" width="608" height="96" rx="18" fill="#E96D42"/>
+    <rect x="128" y="222" width="90" height="10" rx="5" fill="#ffffff" fill-opacity=".55"/>
+    <rect x="128" y="242" width="220" height="16" rx="8" fill="#ffffff" fill-opacity=".9"/>
+    <rect x="128" y="266" width="140" height="10" rx="5" fill="#ffffff" fill-opacity=".45"/>
+    <circle cx="630" cy="244" r="42" fill="#ffffff" fill-opacity=".18"/>
+  </g>
+  <g>
+    <rect x="96" y="314" width="143" height="156" rx="16" fill="#F7F5EF"/>
+    
+    <g>
+      <circle cx="167" cy="374" r="38" fill="#F7F5EF"/>
+      <circle cx="167" cy="374" r="27.4" fill="#F4B83F"/>
+      <circle cx="167" cy="374" r="19.8" fill="#E96D42"/>
+      <circle cx="158.6" cy="364.9" r="3.4" fill="#F7F5EF" fill-opacity=".75"/>
+      <circle cx="173.1" cy="362.6" r="2.7" fill="#F7F5EF" fill-opacity=".6"/>
+    </g>
+    <rect x="116" y="424" width="86" height="9" rx="4.5" fill="#202A24" fill-opacity=".2"/>
+    <rect x="116" y="443" width="48" height="9" rx="4.5" fill="#E96D42"/>
+  </g>
+  <g>
+    <rect x="251" y="314" width="143" height="156" rx="16" fill="#F7F5EF"/>
+    
+    <g>
+      <circle cx="322" cy="374" r="38" fill="#F7F5EF"/>
+      <circle cx="322" cy="374" r="28.1" fill="#FBE6B8"/>
+      <circle cx="322" cy="374" r="22.8" fill="#F4B83F"/>
+      <circle cx="312.9" cy="368.7" r="4.2" fill="#E96D42"/>
+      <circle cx="329.6" cy="381.6" r="4.2" fill="#E96D42"/>
+      <circle cx="330.4" cy="364.1" r="3.0" fill="#E96D42"/>
+    </g>
+    <rect x="271" y="424" width="86" height="9" rx="4.5" fill="#202A24" fill-opacity=".2"/>
+    <rect x="271" y="443" width="48" height="9" rx="4.5" fill="#E96D42"/>
+  </g>
+  <g>
+    <rect x="406" y="314" width="143" height="156" rx="16" fill="#F7F5EF"/>
+    
+    <g>
+      <circle cx="477" cy="374" r="38" fill="#F7F5EF"/>
+      <circle cx="477" cy="374" r="28.1" fill="url(#plated1)"/>
+      <path d="M458.0 374 a19.0 19.0 0 0 0 38.0 0" fill="#202A24" fill-opacity=".18"/>
+      <circle cx="477" cy="364.1" r="5.3" fill="#F7F5EF" fill-opacity=".8"/>
+    </g>
+    <rect x="426" y="424" width="86" height="9" rx="4.5" fill="#202A24" fill-opacity=".2"/>
+    <rect x="426" y="443" width="48" height="9" rx="4.5" fill="#E96D42"/>
+  </g>
+  <g>
+    <rect x="561" y="314" width="143" height="156" rx="16" fill="#F7F5EF"/>
+    
+    <g>
+      <circle cx="632" cy="374" r="38" fill="#F7F5EF"/>
+      <circle cx="632" cy="374" r="27.4" fill="#2C3931"/>
+      <circle cx="632" cy="374" r="19.0" fill="#FBE6B8"/>
+      <circle cx="632" cy="374" r="10.6" fill="#F4B83F"/>
+    </g>
+    <rect x="581" y="424" width="86" height="9" rx="4.5" fill="#202A24" fill-opacity=".2"/>
+    <rect x="581" y="443" width="48" height="9" rx="4.5" fill="#E96D42"/>
+  </g>
+</svg>

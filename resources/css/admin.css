@@ -1,0 +1,198 @@
+@import 'tailwindcss';
+
+@source '../js/**/*.vue';
+@source '../views/admin/**/*.blade.php';
+
+@theme {
+    --color-charcoal: #202a24;
+    --color-charcoal-700: #2c3931;
+    --color-charcoal-500: #41544a;
+    --color-honey: #f4b83f;
+    --color-honey-dark: #d99c22;
+    --color-honey-soft: #fbe6b8;
+    --color-ivory: #f7f5ef;
+    --color-ivory-dark: #ebe7db;
+    --color-coral: #e96d42;
+    --color-coral-dark: #cf5730;
+    --color-coral-soft: #fbddd1;
+
+    --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+    --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+    body {
+        font-family: var(--font-body);
+        -webkit-font-smoothing: antialiased;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: var(--font-sans);
+        font-weight: 800;
+        letter-spacing: -0.02em;
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--color-honey);
+        outline-offset: 2px;
+        border-radius: 4px;
+    }
+}
+
+@layer components {
+    .ad-field {
+        width: 100%;
+        border-radius: 0.625rem;
+        border: 1px solid rgba(32, 42, 36, 0.16);
+        background: #fff;
+        padding: 0.55rem 0.75rem;
+        font-size: 0.875rem;
+        color: var(--color-charcoal);
+        transition:
+            border-color 0.15s ease,
+            box-shadow 0.15s ease;
+    }
+
+    .ad-field:focus {
+        outline: none;
+        border-color: var(--color-honey);
+        box-shadow: 0 0 0 3px rgba(244, 184, 63, 0.2);
+    }
+
+    .ad-field:disabled {
+        background: var(--color-ivory);
+        opacity: 0.7;
+    }
+
+    .ad-label {
+        display: block;
+        font-family: var(--font-sans);
+        font-size: 0.75rem;
+        font-weight: 700;
+        margin-bottom: 0.3rem;
+        color: rgba(32, 42, 36, 0.72);
+    }
+
+    .ad-hint {
+        margin-top: 0.3rem;
+        font-size: 0.7rem;
+        line-height: 1.5;
+        color: rgba(32, 42, 36, 0.5);
+    }
+
+    .ad-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        border-radius: 0.625rem;
+        padding: 0.55rem 1rem;
+        font-family: var(--font-sans);
+        font-size: 0.8125rem;
+        font-weight: 700;
+        line-height: 1.2;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition:
+            background-color 0.15s ease,
+            color 0.15s ease,
+            border-color 0.15s ease;
+    }
+
+    .ad-btn:disabled {
+        opacity: 0.55;
+        cursor: not-allowed;
+    }
+
+    .ad-btn-primary {
+        background: var(--color-charcoal);
+        color: var(--color-ivory);
+    }
+
+    .ad-btn-primary:hover:not(:disabled) {
+        background: var(--color-charcoal-700);
+    }
+
+    .ad-btn-honey {
+        background: var(--color-honey);
+        color: var(--color-charcoal);
+    }
+
+    .ad-btn-honey:hover:not(:disabled) {
+        background: var(--color-honey-dark);
+    }
+
+    .ad-btn-ghost {
+        background: #fff;
+        border-color: rgba(32, 42, 36, 0.16);
+        color: var(--color-charcoal);
+    }
+
+    .ad-btn-ghost:hover:not(:disabled) {
+        border-color: rgba(32, 42, 36, 0.35);
+        background: var(--color-ivory);
+    }
+
+    .ad-btn-danger {
+        background: #fff;
+        border-color: rgba(233, 109, 66, 0.4);
+        color: var(--color-coral-dark);
+    }
+
+    .ad-btn-danger:hover:not(:disabled) {
+        background: var(--color-coral);
+        border-color: var(--color-coral);
+        color: #fff;
+    }
+
+    .ad-card {
+        background: #fff;
+        border: 1px solid rgba(32, 42, 36, 0.08);
+        border-radius: 1rem;
+        box-shadow: 0 1px 2px rgba(32, 42, 36, 0.04);
+    }
+
+    .ad-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        border-radius: 999px;
+        padding: 0.15rem 0.55rem;
+        font-size: 0.6875rem;
+        font-weight: 700;
+        font-family: var(--font-sans);
+        white-space: nowrap;
+    }
+
+    .ad-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.8125rem;
+    }
+
+    .ad-table th {
+        text-align: left;
+        padding: 0.6rem 0.75rem;
+        font-family: var(--font-sans);
+        font-size: 0.6875rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: rgba(32, 42, 36, 0.5);
+        border-bottom: 1px solid rgba(32, 42, 36, 0.08);
+        white-space: nowrap;
+    }
+
+    .ad-table td {
+        padding: 0.7rem 0.75rem;
+        border-bottom: 1px solid rgba(32, 42, 36, 0.06);
+        vertical-align: middle;
+    }
+
+    .ad-table tbody tr:hover {
+        background: rgba(247, 245, 239, 0.7);
+    }
+}

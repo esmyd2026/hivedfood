@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 52" width="260" height="52" role="img" aria-label="HIVEDFOOD">
+    <title>HIVEDFOOD</title>
+    <g>
+        <!-- Marca: celda de panal con cubierto -->
+        <path d="M24.5 3.6 41.3 13.3v19.4L24.5 42.4 7.7 32.7V13.3Z" fill="#F4B83F"/>
+        <path d="M24.5 9.2 36.4 16v13.8l-11.9 6.8-11.9-6.8V16Z" fill="#202A24"/>
+        <path d="M20.1 16.4v6.2a4.4 4.4 0 0 0 8.8 0v-6.2" stroke="#F4B83F" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+        <path d="M24.5 23v8.4" stroke="#F4B83F" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="24.5" cy="16.4" r="1.6" fill="#E96D42"/>
+    </g>
+    <text x="52" y="33.5" font-family="Manrope, Inter, system-ui, sans-serif" font-size="25" font-weight="800" letter-spacing="-0.5" fill="#F7F5EF">HIVED<tspan fill="#E96D42">FOOD</tspan></text>
+</svg>
